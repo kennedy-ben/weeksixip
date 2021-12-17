@@ -23,7 +23,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Clonning
 
 Make sure you have all requirements or running angular app installed.
-Clone the project in your machine {}
+Clone the project in your machine {https://github.com/kennedy-ben/weeksixip.git}
 
 ###### Live Demo
 
