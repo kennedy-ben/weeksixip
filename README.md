@@ -27,7 +27,7 @@ Clone the project in your machine {https://github.com/kennedy-ben/weeksixip.git}
 
 ###### Live Demo
 
-To view click here:
+To view click here:https://kennedy-ben.github.io/weeksixip/
 
 ## Tenchonolgies Used
 
