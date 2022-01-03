@@ -4,7 +4,7 @@
     height: unset !important;
   }
   .intro-2 {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+    background-image: url(https://lh3.googleusercontent.com/proxy/dbbuFH8nzc3i6Njl5ypqLkPamseEd2dSEWKQDLi871esb2WfquLu33SumbZdtRoXTvP0QJpowCeo75mB97iVOVxzKQVqi5U);
     background-size: cover;
   }
   .view {
