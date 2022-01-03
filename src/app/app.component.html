@@ -29,18 +29,31 @@
   
 </div>
 <div class="container-fluid" >
-  <h2>QUOTES</h2>
+  <h1>QUOTES</h1>
   
 </div>
+
 
 
 <div class="container">
   <div class="row">
     <div class="col-md-10">
       <hr>
-      
+      <div  class="myQuote"*ngFor="let quote of quotes; let i=index">
+
+        
+        <!-- <hr size="50"> -->
+
+
+        <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>
+        <button class="btn" (click)="downvote(i)">Downvote</button>
+        <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
+
         <hr>
 
       </div>
     </div>
   </div>
+</div>
+
+  
