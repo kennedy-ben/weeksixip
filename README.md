@@ -31,9 +31,9 @@ To view click here:https://kennedy-ben.github.io/weeksixip/
 
 ## Tenchonolgies Used
 
-Angular JS
-HTML
-CSS
+* Angular JS
+* HTML
+* CSS
 
 ## Contribution
 Pull request are encouraged
