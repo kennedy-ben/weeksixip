@@ -4,8 +4,7 @@
     height: unset !important;
   }
   .intro-2 {
-    background-image: url(https://lh3.googleusercontent.com/proxy/dbbuFH8nzc3i6Njl5ypqLkPamseEd2dSEWKQDLi871esb2WfquLu33SumbZdtRoXTvP0QJpowCeo75mB97iVOVxzKQVqi5U);
-    background-size: cover;
+        background-size: cover;
   }
   .view {
     height: 100vh !important;
@@ -46,3 +45,20 @@
       height: 1040px;
     }
   }
+  .myQuote{
+    padding: 15px;
+  }
+  
+  .container-fluid{
+    /* padding: 1px; */
+    text-align: center;
+    background-color: blue;
+   background-image: url(https://lh3.googleusercontent.com/proxy/dbbuFH8nzc3i6Njl5ypqLkPamseEd2dSEWKQDLi871esb2WfquLu33SumbZdtRoXTvP0QJpowCeo75mB97iVOVxzKQVqi5U);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+  }
+  
+  /* .line
+  {
+    height: 5px;
+  } */

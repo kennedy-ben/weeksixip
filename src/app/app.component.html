@@ -1,59 +1,46 @@
-
-<img src="https://lh3.googleusercontent.com/proxy/dbbuFH8nzc3i6Njl5ypqLkPamseEd2dSEWKQDLi871esb2WfquLu33SumbZdtRoXTvP0QJpowCeo75mB97iVOVxzKQVqi5U" alt="thumbs up">
-
 <div class="container-fluid">
-  <form (ngSubmit)="submitQuote()">
+
+  <img src="https://lh3.googleusercontent.com/proxy/dbbuFH8nzc3i6Njl5ypqLkPamseEd2dSEWKQDLi871esb2WfquLu33SumbZdtRoXTvP0QJpowCeo75mB97iVOVxzKQVqi5U" alt="thumbs up">
+  
+
 
     <br>
 
      <div class="form-group">
      <label for="name"><strong>Person's Name:</strong></label>
-     <input type="text"  name="publisher" class="form-control" id="exampleFormControlInput1" [(ngModel)]="quotePublisher" placeholder="Write Your Name Here:">
+     <input type="text"  name="publisher" class="form-control" id="exampleFormControlInput1" >
     </div>
 
     <div class="form-group">
       <br/>
         <label for="quotes"><strong>Quotes:</strong></label>
         
-        <input type="text" name="quote" class="form-control" id="exampleFormControlInput1" [(ngModel)]="quoteStr" placeholder="Add Your Quote Here:">
+        <input type="text" name="quote" class="form-control" id="exampleFormControlInput1" >
     </div>
 
     <div class="form-group">
       <br/>
      <label for="author"><strong>Author:</strong></label>
-        <input type="text" name="author" class="form-control" id="exampleFormControlInput1"  [(ngModel)]="quoteAuthor" placeholder="Add Name of the Author Here:">
+        <input type="text" name="author" class="form-control" id="exampleFormControlInput1"  >
     </div>
     <br/>
 
     <button type="submit" class="btn btn-primary">Post Quote</button>
-  </form>
+  
 </div>
 <div class="container-fluid" >
   <h1>QUOTES</h1>
   
 </div>
 
-<app-form (emitQuote)="addQuote($event)"></app-form>
 
 <div class="container">
   <div class="row">
     <div class="col-md-10">
       <hr>
-      <div  class="myQuote"*ngFor="let quote of quotes; let i=index">
-        <p appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p>
-        <p  *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
-        <app-details [quote]="quote"></app-details>
-
-        <!-- <hr size="50"> -->
-
-
-        <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>
-        <button class="btn" (click)="downvote(i)">Downvote</button>
-        <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
-
+      
         <hr>
 
       </div>
     </div>
   </div>
-</div>
