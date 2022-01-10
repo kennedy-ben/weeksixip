@@ -16,8 +16,8 @@ import {a
   styleUrls: ['./app.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes=[new Quote("ANC","Julius Malema","Mama give us a sign"),
-new Quote("Lupita","Black Panther","Wakanda Forever")]
+  quotes=[new Quote("ANC","Kennedy Kamau","I got a sign"),
+new Quote("Lupita","Juliet Wahome","Terminator")]
   preNum!: number;
   lastNum!: number;
   counter!: number;
