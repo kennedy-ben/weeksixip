@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class KennedComponent {
   title = 'weeksixip';
 }
 
@@ -15,7 +15,7 @@ import {a
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class QuoteComponent implements OnInit {
+export class AppComponent implements OnInit {
   quotes=[new Quote("ANC","Kennedy Kamau","I got a sign"),
 new Quote("Lupita","Juliet Wahome","Terminator")]
   preNum!: number;
@@ -59,7 +59,7 @@ import { Quote } from './program';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class FormComponent implements OnInit {
+export class AppComponent implements OnInit {
   @Output() emitQuote= new EventEmitter()
   quoteStr!: string;
   quotePublisher!: string;
