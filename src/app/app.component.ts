@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent {
   title = 'weeksixip';
 }
-import { 'component' @angular/core';
+
 import {a
 @Component({
   selector: 'app-quote',
@@ -23,7 +23,7 @@ new Quote("Lupita","Black Panther","Wakanda Forever")]
   counter!: number;
 
   addQuote(_emittedApp: any){
-    this.quotes.push('any' ((_emittedQuote: any)=>)
+    
   }
 
   upvote(i: string | number){

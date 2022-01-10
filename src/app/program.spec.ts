@@ -1,8 +1,8 @@
-import { Program } from './program';
+import {} from './program';
 
 describe('Program', () => {
   it('should create an instance', () => {
-    expect(new Program()).toBeTruthy();
+    expect(new ()).toBeTruthy();
   });
 });
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
