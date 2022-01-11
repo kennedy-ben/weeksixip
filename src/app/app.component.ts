@@ -24,6 +24,7 @@ export class AppComponent implements OnInit {
   preNum!: number;
   lastNum!: number;
   counter!: number;
+  version = 1;
 
   addQuote(_emittedApp: any) {
 
