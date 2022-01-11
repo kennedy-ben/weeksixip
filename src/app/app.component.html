@@ -37,12 +37,12 @@
   <div class="row">
     <div class="col-md-10">
       <hr>
-      <div  class="myQuote"*ngFor="let quote of quotes; let i=index">
+      <div  class="myQuote"*ngFor="let quote of quotes; let i = index">
 
         
         <!-- <hr size="50"> -->
 
-<div>
+<div>{{i}}
     <p>I got a sign </p>
     <p>Author:Kennedy Kamau</p>
     <p>Publisher:ANC</p>
@@ -59,7 +59,7 @@
 
       </div>
 
-<div>
+<!-- <div>
   <p>Terminator King </p>
   <p>Author:Juliet Wahome</p>
   <p>Publisher:ANC</p>
@@ -70,7 +70,7 @@
 </div>
 <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>
         <button class="btn" (click)="downvote(i)">Downvote</button>
-        <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
+        <button class="btn btn-danger" (click)="delQuote(i)">Delete</button> -->
 
 
     </div>

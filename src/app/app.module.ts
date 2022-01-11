@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { KennedyComponent } from './kennedy/kennedy.component';
+// import { KennedyComponent } from './kennedy/kennedy.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    KennedyComponent
+    // KennedyComponent
   ],
   imports: [
     BrowserModule,
